@@ -183,16 +183,16 @@ const Index = () => {
               </div>
               <CardHeader>
                 <CardTitle className="line-clamp-2">{event.title}</CardTitle>
-                <CardDescription>
-                  <div className="flex items-center gap-2 mt-2">
+                <div className="space-y-1 mt-2">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Icon name="Calendar" size={16} />
                     <span>{event.date}</span>
                   </div>
-                  <div className="flex items-center gap-2 mt-1">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Icon name="Clock" size={16} />
                     <span>{event.time}</span>
                   </div>
-                </CardDescription>
+                </div>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground line-clamp-2">
